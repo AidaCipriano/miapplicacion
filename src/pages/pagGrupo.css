@@ -1,0 +1,21 @@
+#containerGrupo{
+    margin: 0;
+    width: 100%;
+    flex: 1;
+}
+
+#colGrupo{
+    background: rgba(0, 0, 0, .5);
+}
+
+#colForo{
+    background: rgba(50, 50, 50, .275);
+}
+
+#colGrupo img{
+   width: 500px;
+}
+
+#inputChat{
+    --bs-bg-opacity: .5;
+}

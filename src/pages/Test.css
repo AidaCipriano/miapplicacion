@@ -1,0 +1,11 @@
+#root{
+   flex: 1;
+    background-image: linear-gradient(to top, #0F5959  0%, #107361  100%);
+}
+
+#root2{
+    height: 100%;
+    margin: 0;
+    display: flex;
+  flex-direction: column;
+}

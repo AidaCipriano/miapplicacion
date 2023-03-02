@@ -1,0 +1,44 @@
+*{
+   font-family: 'Quicksand';
+}
+
+
+
+
+.gradient-custom {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+    /* fallback for old browsers */
+    /* background: #6a11cb; */
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)); */
+    /* background: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    /* background-image: linear-gradient(-20deg, #042326 0%, #107361 100%); */
+    background: linear-gradient(-45deg, #042326, #0A3A40, #0F5959,#1D7373);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)) */
+}
+
+#content{
+    background: rgba(0, 0, 0, 0.375);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;   
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
