@@ -1,0 +1,11 @@
+
+npx create-react-app poi-proyecto
+ npx react-toastify
+npm install --save react-toastify
+npm install --save websocket http
+npm install --save-dev node-sass sass-loader style-loader css-loader mini-css-extract-plugin
+npm install --save sockjs-client
+ npm install react-bootstrap bootstrap
+npm install @stomp/stompjs
+npm i react-router-dom
+npm i firebase
